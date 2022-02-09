@@ -1,3 +1,11 @@
+/**
+ * @author [Luccin Masirika]
+ * @email [luccinmasirika@gmail.com]
+ * @create date 2022-02-09 17:17:19
+ * @modify date 2022-02-09 17:17:19
+ * @desc [description]
+ */
+
 import withDarkMode from 'next-dark-mode';
 import type { AppProps } from 'next/app';
 import NextNprogress from 'nextjs-progressbar';

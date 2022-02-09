@@ -1,3 +1,11 @@
+/**
+ * @author [Luccin Masirika]
+ * @email [luccinmasirika@gmail.com]
+ * @create date 2022-02-09 17:16:36
+ * @modify date 2022-02-09 17:16:36
+ * @desc [description]
+ */
+
 import Cookies from 'js-cookie';
 import { useRouter } from 'next/router';
 
