@@ -17,10 +17,13 @@ export const theme = (mode: 'light' | 'dark') =>
         paper: '#212121',
       },
       primary: {
-        main: '#4A148C',
+        main: '#1A237E',
       },
       secondary: {
-        main: '#F06292',
+        main: '#F48FB1',
       },
+    },
+    typography: {
+      fontFamily: ['Poppins', 'sans-serif'].join(','),
     },
   });
