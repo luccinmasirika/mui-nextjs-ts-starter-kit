@@ -22,8 +22,26 @@ export const theme = (mode: 'light' | 'dark') =>
       secondary: {
         main: '#F48FB1',
       },
+      accent: {
+        main: '#F7EBD7',
+      },
     },
     typography: {
       fontFamily: ['Poppins', 'sans-serif'].join(','),
     },
   });
+
+declare module '@mui/material/styles' {
+  interface Palette {
+    accent: Palette['primary'];
+  }
+  interface PaletteOptions {
+    accent?: PaletteOptions['primary'];
+  }
+}
+
+declare module '@mui/material/Button' {
+  interface ButtonPropsColorOverrides {
+    accent: true;
+  }
+}
