@@ -20,8 +20,18 @@
 
 ## Getting Started
 
-```bash
-npm install
+Create your project by using the following command
 
-npm run dev
+```bash
+
+npx create-next-app [your-project-name] -e https://github.com/luccin243/mui-nextjs-ts-starter-kit
+
+```
+
+OR
+
+```bash
+
+yarn create next-app [your-project-name] -e https://github.com/luccin243/mui-nextjs-ts-starter-kit
+
 ```
