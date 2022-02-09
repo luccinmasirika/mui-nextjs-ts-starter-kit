@@ -23,7 +23,7 @@ export const theme = (mode: 'light' | 'dark') =>
         main: '#F48FB1',
       },
       accent: {
-        main: '#F7EBD7',
+        main: '#5B759F',
       },
     },
     typography: {

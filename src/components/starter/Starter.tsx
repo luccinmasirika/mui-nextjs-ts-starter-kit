@@ -91,7 +91,7 @@ const Starter: NextPage = () => {
         </Typography>
 
         <Stack direction='row' spacing={2} sx={{ my: 4 }}>
-          <Button onClick={toggleMode} variant='contained' color='primary'>
+          <Button onClick={toggleMode} variant='contained' color='accent'>
             Switch to {darkModeActive ? 'Light' : 'Dark'} theme
           </Button>
           <Button onClick={toggleLanguage} variant='contained' color='primary'>
