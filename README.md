@@ -22,7 +22,7 @@
 
 Create your project by using the following command
 
-```bash
+```
 
 npx create-next-app [your-project-name] -e https://github.com/luccin243/mui-nextjs-ts-starter-kit
 
@@ -30,7 +30,7 @@ npx create-next-app [your-project-name] -e https://github.com/luccin243/mui-next
 
 OR
 
-```bash
+```
 
 yarn create next-app [your-project-name] -e https://github.com/luccin243/mui-nextjs-ts-starter-kit
 
