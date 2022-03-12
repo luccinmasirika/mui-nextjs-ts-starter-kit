@@ -10,4 +10,4 @@ module.exports = {
     site: 'Ingenious City',
     cardType: 'summary_large_image',
   },
-};
+}

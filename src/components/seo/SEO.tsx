@@ -6,23 +6,22 @@
  * @desc [description]
  */
 
-
-import { BASE_URL } from '@/config/url';
-import { CorporateContactJsonLd, NextSeo } from 'next-seo';
-import { useRouter } from 'next/router';
-import Script from 'next/script';
-import React from 'react';
+import { BASE_URL } from '@/config/url'
+import { CorporateContactJsonLd, NextSeo } from 'next-seo'
+import { useRouter } from 'next/router'
+import Script from 'next/script'
+import React from 'react'
 
 interface IProps {
-  title: string;
-  description: string;
-  name: string;
-  phone: string;
-  image: string;
-  logo: string;
-  favicon: string;
-  GA_MEASUREMENT_ID: string;
-  children?: string;
+  title: string
+  description: string
+  name: string
+  phone: string
+  image: string
+  logo: string
+  favicon: string
+  GA_MEASUREMENT_ID: string
+  children?: string
 }
 
 const SEO: React.FC<IProps> = ({
@@ -36,7 +35,7 @@ const SEO: React.FC<IProps> = ({
   children,
   GA_MEASUREMENT_ID,
 }) => {
-  const { asPath, locale } = useRouter();
+  const { asPath, locale } = useRouter()
   return (
     <>
       <NextSeo
@@ -91,7 +90,7 @@ const SEO: React.FC<IProps> = ({
         async
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
       />
-      <Script id='google-analytics'>
+      <Script id="google-analytics">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
@@ -101,7 +100,7 @@ const SEO: React.FC<IProps> = ({
         `}
       </Script>
     </>
-  );
-};
+  )
+}
 
-export default SEO;
+export default SEO

@@ -6,5 +6,4 @@
  * @desc [description]
  */
 
-export { default } from './SEO';
-
+export { default } from './SEO'

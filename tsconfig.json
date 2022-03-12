@@ -23,7 +23,7 @@
       "@/store/*": ["store/*"],
       "@/config/*": ["config/*"],
       "@/lib/*": ["lib/*"]
-    },
+    }
   },
   "include": ["next-env.d.ts", "declarations.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]

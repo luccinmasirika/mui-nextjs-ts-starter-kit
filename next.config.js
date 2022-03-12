@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 
-const securityHeaders = require('./headers');
+const securityHeaders = require('./headers')
 
 const nextConfig = {
   reactStrictMode: true,
@@ -20,8 +20,8 @@ const nextConfig = {
         source: '/:path*',
         headers: securityHeaders,
       },
-    ];
+    ]
   },
-};
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig

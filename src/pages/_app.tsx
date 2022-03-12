@@ -6,12 +6,12 @@
  * @desc [description]
  */
 
-import withDarkMode from 'next-dark-mode';
-import type { AppProps } from 'next/app';
-import NextNprogress from 'nextjs-progressbar';
-import { Provider } from 'react-redux';
-import Store from '../store';
-import '../styles/globals.css';
+import withDarkMode from 'next-dark-mode'
+import type { AppProps } from 'next/app'
+import NextNprogress from 'nextjs-progressbar'
+import { Provider } from 'react-redux'
+import Store from '../store'
+import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       />
       <Component {...pageProps} />
     </Provider>
-  );
+  )
 }
 
-export default withDarkMode(MyApp);
+export default withDarkMode(MyApp)

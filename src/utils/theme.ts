@@ -6,7 +6,7 @@
  * @desc [description]
  */
 
-import { createTheme } from '@mui/material/styles';
+import { createTheme } from '@mui/material/styles'
 
 export const theme = (mode: 'light' | 'dark') =>
   createTheme({
@@ -29,19 +29,19 @@ export const theme = (mode: 'light' | 'dark') =>
     typography: {
       fontFamily: ['Poppins', 'sans-serif'].join(','),
     },
-  });
+  })
 
 declare module '@mui/material/styles' {
   interface Palette {
-    accent: Palette['primary'];
+    accent: Palette['primary']
   }
   interface PaletteOptions {
-    accent?: PaletteOptions['primary'];
+    accent?: PaletteOptions['primary']
   }
 }
 
 declare module '@mui/material/Button' {
   interface ButtonPropsColorOverrides {
-    accent: true;
+    accent: true
   }
 }

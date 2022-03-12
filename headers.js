@@ -39,4 +39,4 @@ module.exports = [
     key: 'Permissions-Policy',
     value: 'geolocation=*',
   },
-];
+]

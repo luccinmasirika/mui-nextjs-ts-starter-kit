@@ -19,14 +19,7 @@ import * as React from 'react'
 dayjs.extend(relativeTime)
 
 const Starter: NextPage = () => {
-  const {
-    autoModeActive,
-    autoModeSupported,
-    darkModeActive,
-    switchToAutoMode,
-    switchToDarkMode,
-    switchToLightMode,
-  } = useDarkMode()
+  const { darkModeActive, switchToDarkMode, switchToLightMode } = useDarkMode()
 
   const { locale } = useRouter()
   const switchLanguage = useI18n<'fr' | 'en'>()

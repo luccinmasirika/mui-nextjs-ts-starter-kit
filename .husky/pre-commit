@@ -1,0 +1,24 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npm run check-types || (
+  echo `❌❌ Check types failed. Fix issues and try again😨😨`;
+  false;
+)
+
+npm run check-format || (
+  echo `❌❌ Code style issues found 🥵😱. Check Prettier rulers to solve the problem`;
+  false;
+)
+
+npm run check-eslint || (
+  echo `❌❌ Check the code please. Lint failed 😭😭 `;
+  false;
+)
+
+npm run lint || (
+  echo `❌❌ Check the code please. Next lint failed 😭😭 `;
+  false;
+)
+
+echo `✔✔ Everythings looks good. I am commit this ... 😎`

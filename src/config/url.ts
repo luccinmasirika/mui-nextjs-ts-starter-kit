@@ -6,5 +6,5 @@
  * @desc [description]
  */
 
-export const BASE_URL: string = '';
-export const API: string = '';
+export const BASE_URL: string = ''
+export const API: string = ''
