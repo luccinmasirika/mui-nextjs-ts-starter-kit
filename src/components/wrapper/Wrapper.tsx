@@ -14,7 +14,7 @@ import { useDarkMode } from 'next-dark-mode'
 import * as React from 'react'
 
 interface IWrapper {}
-interface IProps {
+interface IProps extends IWrapper {
   children: React.ReactElement[] | React.ReactElement
 }
 
