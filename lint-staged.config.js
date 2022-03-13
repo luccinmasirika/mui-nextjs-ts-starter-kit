@@ -1,11 +1,12 @@
 module.exports = {
   // Type check TypeScript files
-  '**/*.(ts|tsx)': () => 'npx tsc --pretty --noEmit',
+  './src/*.(ts|tsx)': () => 'npx tsc --noEmit',
 
   // Lint then format TypeScript and JavaScript files
-  '**/*.(ts|tsx|js)': (filenames) => [
+  './src/*.(ts|tsx|js)': (filenames) => [
     `npm run eslint --fix ${filenames.join(' ')}`,
     `npm run prettier --write ${filenames.join(' ')}`,
+    `npm run lint ${filenames.join(' ')}`,
   ],
 
   // Format MarkDown and JSON
