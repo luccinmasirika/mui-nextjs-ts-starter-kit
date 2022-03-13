@@ -2,8 +2,8 @@
 . "$(dirname "$0")/_/husky.sh"
 
 
-echo "💢 Let me check your code befrore you commit"
+echo "💢 Let's start by checking your code before you make a commit 💤"
 
 npx lint-staged
 
-echo "✔✔ Everythings looks good. I can commit this ... 😎"
+echo "💥Everything looks good, you can proceed with the commit... 😎"
