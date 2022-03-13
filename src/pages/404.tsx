@@ -1,15 +1,11 @@
 import SEO from '@/components/seo'
 import Wrapper from '@/components/wrapper'
-import 'dayjs/locale/fr'
 import type { NextPage } from 'next'
 import * as React from 'react'
-import dynamic from 'next/dynamic'
-import { useTheme } from 'next-themes'
-
-const Starter = dynamic(import('@/components/starter'))
+import Typography from '@mui/material/Typography'
+import Stack from '@mui/material/Stack'
 
 const Home: NextPage = () => {
-  const { theme, setTheme } = useTheme()
   return (
     <Wrapper>
       <SEO
@@ -22,10 +18,13 @@ const Home: NextPage = () => {
         phone="00000000"
         GA_MEASUREMENT_ID="0000000000"
       />
-      <Starter />
-      The current theme is: {theme}
-      <button onClick={() => setTheme('light')}>Light Mode</button>
-      <button onClick={() => setTheme('dark')}>Dark Mode</button>
+      <Stack
+        justifyContent="center"
+        alignItems="center"
+        sx={{ width: 1, height: '50vh' }}
+      >
+        <Typography variant="h1">404</Typography>
+      </Stack>
     </Wrapper>
   )
 }

@@ -4,6 +4,7 @@ import NextNprogress from 'nextjs-progressbar'
 import { Provider } from 'react-redux'
 import Store from '../store'
 import '../styles/globals.css'
+import { ThemeProvider } from 'next-themes'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -16,7 +17,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         showOnShallow={false}
         options={{ easing: 'ease', speed: 500 }}
       />
-      <Component {...pageProps} />
+      <ThemeProvider>
+        <Component {...pageProps} />
+      </ThemeProvider>
     </Provider>
   )
 }
