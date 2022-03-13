@@ -1,11 +1,3 @@
-/**
- * @author [Luccin Masirika]
- * @email [luccinmasirika@gmail.com]
- * @create date 2022-02-09 13:21:47
- * @modify date 2022-02-09 13:21:47
- * @desc [MUI NextJs with Typescript Starter Kit Wrapper]
- */
-
 import SEO from '@/components/seo'
 import Wrapper from '@/components/wrapper'
 import 'dayjs/locale/fr'

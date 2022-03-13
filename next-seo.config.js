@@ -2,12 +2,12 @@ module.exports = {
   openGraph: {
     type: 'website',
     locale: 'fr',
-    url: 'https://ingeniouscity.com',
-    site_name: 'Ingenious City',
+    url: process.env.NEXT_PUBLIC_URL,
+    site_name: 'WEB SITE NAME',
   },
   twitter: {
     handle: 'Luccin Masirika',
-    site: 'Ingenious City',
+    site: 'WEB SITE NAME',
     cardType: 'summary_large_image',
   },
 }

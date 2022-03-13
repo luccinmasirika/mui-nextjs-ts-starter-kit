@@ -1,11 +1,3 @@
-/**
- * @author [Luccin Masirika]
- * @email [luccinmasirika@gmail.com]
- * @create date 2022-02-09 17:14:36
- * @modify date 2022-02-09 17:14:36
- * @desc [description]
- */
-
 import { BASE_URL } from '@/config/url'
 import { CorporateContactJsonLd, NextSeo } from 'next-seo'
 import { useRouter } from 'next/router'

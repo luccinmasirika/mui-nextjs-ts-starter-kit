@@ -1,11 +1,3 @@
-/**
- * @author [Luccin Masirika]
- * @email [luccinmasirika@gmail.com]
- * @create date 2022-02-09 20:55:21
- * @modify date 2022-02-09 20:55:21
- * @desc [Home Page]
- */
-
 import { useI18n } from '@/hooks/useI18n'
 import { Button, Container, Stack, Typography } from '@mui/material'
 import dayjs from 'dayjs'

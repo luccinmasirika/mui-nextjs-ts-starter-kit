@@ -1,11 +1,3 @@
-/**
- * @author [Luccin Masirika]
- * @email [luccinmasirika@gmail.com]
- * @create date 2022-02-09 17:19:24
- * @modify date 2022-02-09 17:19:33
- * @desc [Security Headers]
- */
-
 module.exports = [
   {
     key: 'X-DNS-Prefetch-Control',
