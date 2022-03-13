@@ -3,4 +3,4 @@
 
 npx lint-staged
 
-echo `✔✔ Everythings looks good. I am commit this ... 😎`
+echo "✔✔ Everythings looks good. I am commit this ... 😎"
