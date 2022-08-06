@@ -1,4 +1,4 @@
-# MUI NextJs using TypeScript Starter Kit
+# My MUI NextJs using TypeScript Starter Kit
 
 ## Features
 
