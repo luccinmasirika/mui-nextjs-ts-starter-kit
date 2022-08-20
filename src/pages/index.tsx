@@ -4,7 +4,7 @@ import type { NextPage } from 'next'
 import * as React from 'react'
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
-import { useRouter } from "next";
+import { useRouter } from "next/router";
 import ButtonGroup from "@mui/material/ButtonGroup";
 
 const Home: NextPage = () => {
