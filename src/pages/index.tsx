@@ -2,11 +2,8 @@ import SEO from '@/components/seo'
 import Wrapper from '@/components/wrapper'
 import type { NextPage } from 'next'
 import * as React from 'react'
-import dynamic from 'next/dynamic'
-import { useTheme } from 'next-themes'
 
 const Home: NextPage = () => {
-  const { theme, setTheme } = useTheme()
   return (
     <Wrapper>
       <SEO
