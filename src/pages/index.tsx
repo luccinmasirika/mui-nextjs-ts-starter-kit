@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         phone="00000000"
         GA_MEASUREMENT_ID="0000000000"
       />
-      <h3>Hi, I'm Luccin Maisrika 👋 </h3>
+      <h3>{`Hi, I'm Luccin Maisrika 👋 `}</h3>
       <p>Welcome 🤗 to my portfolio</p>
     </Wrapper>
   )
