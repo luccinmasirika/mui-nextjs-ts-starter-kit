@@ -32,7 +32,7 @@ const Home: NextPage = () => {
         Full Stack JavaScript/TypeScript Developer with 4+ years of experience
         in React.js/Next.js, Node.js/NestJs
       </Typography>
-      <Stack direction="row" sx={{ justifyContent: "center", width: 1 }}>
+      <Stack direction="row" sx={{ justifyContent: "center", width: 1, my: 4 }}>
         <ButtonGroup
           size="small"
           aria-label="small button group"
