@@ -6,6 +6,7 @@ import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 import { useRouter } from "next/router";
 import ButtonGroup from "@mui/material/ButtonGroup";
+import Button from "@mui/material/Button";
 
 const Home: NextPage = () => {
   const router = useRouter();
