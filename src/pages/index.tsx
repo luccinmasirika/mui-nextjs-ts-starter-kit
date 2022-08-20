@@ -14,8 +14,8 @@ const Home: NextPage = () => {
     <Wrapper>
       <SEO
         title="Luccin Masirika"
-        description="MUI NextJs with TypeScript Starter Kit"
-        name="MUI NextJs with TypeScript Starter Kit"
+        description="Oups!"
+        name="Luccin Masirika"
         logo="/vercel.svg"
         favicon="/favicon.ico"
         image="/vercel.svg"
