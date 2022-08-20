@@ -35,8 +35,6 @@ const Home: NextPage = () => {
         size="small"
         aria-label="small button group"
         sx={{ justifyContent: "center" }}
-        variant="contained"
-        color="accent"
       >
         <Button
           onClick={() =>
