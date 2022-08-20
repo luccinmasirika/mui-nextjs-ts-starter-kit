@@ -26,7 +26,7 @@ const Home: NextPage = () => {
         textAlign="center"
         sx={{ mt: 4 }}
         gutterBottom
-      >{`Hi, I'm Luccin Maisrika 👋 `}</Typography>
+      >{`Hi, I'm Luccin Masirika 👋 `}</Typography>
       <Typography textAlign="center" color="text.secondary">
         Full Stack JavaScript/TypeScript Developer with 4+ years of experience
         in React.js/Next.js, Node.js/NestJs
