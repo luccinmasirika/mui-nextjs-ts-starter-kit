@@ -23,7 +23,7 @@ const Home: NextPage = () => {
         GA_MEASUREMENT_ID="0000000000"
       />
       <Typography
-        variant="h3"
+        variant="h4"
         textAlign="center"
         sx={{ mt: 4 }}
         gutterBottom
@@ -32,8 +32,12 @@ const Home: NextPage = () => {
         Full Stack JavaScript/TypeScript Developer with 4+ years of experience
         in React.js/Next.js, Node.js/NestJs
       </Typography>
-      <Stack sx={{ justifyContent: "center", width: 1 }}>
-        <ButtonGroup size="small" aria-label="small button group">
+      <Stack direction="row" sx={{ justifyContent: "center", width: 1 }}>
+        <ButtonGroup
+          size="small"
+          aria-label="small button group"
+          color="secondary"
+        >
           <Button
             onClick={() =>
               router.push("https://www.linkedin.com/in/luccin-masirika")
