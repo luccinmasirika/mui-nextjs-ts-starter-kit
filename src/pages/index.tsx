@@ -4,8 +4,11 @@ import type { NextPage } from 'next'
 import * as React from 'react'
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
+import { useRouter } from "next";
+import ButtonGroup from "@mui/material/ButtonGroup";
 
 const Home: NextPage = () => {
+  const router = useRouter();
   return (
     <Wrapper>
       <SEO
@@ -28,10 +31,30 @@ const Home: NextPage = () => {
         Full Stack JavaScript/TypeScript Developer with 4+ years of experience
         in React.js/Next.js, Node.js/NestJs
       </Typography>
-      <Link href="https://www.linkedin.com/in/luccin-masirika">
-        My linkedin
-      </Link>
-      <Link href="https://github.com/luccin243">My Github</Link>
+      <ButtonGroup
+        size="small"
+        aria-label="small button group"
+        sx={{ justifyContent: "center" }}
+      >
+        <Button
+          onClick={() =>
+            router.push("https://www.linkedin.com/in/luccin-masirika")
+          }
+          key="linkedin"
+          variant="contained"
+          color="accent"
+        >
+          My LinkedIn
+        </Button>
+        <Button
+          key="github"
+          onClick={() => router.push("https://github.com/luccin243")}
+          variant="contained"
+          color="accent"
+        >
+          My GitHub
+        </Button>
+      </ButtonGroup>
     </Wrapper>
   );
 };
