@@ -25,10 +25,10 @@ const Home: NextPage = () => {
       <Typography
         variant="h4"
         textAlign="center"
-        sx={{ mt: 4 }}
+        sx={{ mt: 4, px: 2 }}
         gutterBottom
-      >{`Hi, I'm Luccin Masirika 👋 `}</Typography>
-      <Typography textAlign="center" color="text.secondary">
+      >{`Hi 👋, I'm Luccin Masirika`}</Typography>
+      <Typography textAlign="center" color="text.secondary" sx={{ px: 2 }}>
         Full Stack JavaScript/TypeScript Developer with 4+ years of experience
         in React.js/Next.js, Node.js/NestJs
       </Typography>
