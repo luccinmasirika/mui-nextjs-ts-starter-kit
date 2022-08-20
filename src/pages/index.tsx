@@ -20,7 +20,7 @@ const Home: NextPage = () => {
         GA_MEASUREMENT_ID="0000000000"
       />
       <h3>Hi, I'm Luccin Maisrika 👋 </h3>
-      <P>Welcome 🤗 to my portfolio</p>
+      <p>Welcome 🤗 to my portfolio</p>
     </Wrapper>
   )
 }
