@@ -2,6 +2,8 @@ import SEO from '@/components/seo'
 import Wrapper from '@/components/wrapper'
 import type { NextPage } from 'next'
 import * as React from 'react'
+import Typography from "@mui/material/Typography";
+import Link from "@mui/material/Link";
 
 const Home: NextPage = () => {
   return (
@@ -16,10 +18,22 @@ const Home: NextPage = () => {
         phone="00000000"
         GA_MEASUREMENT_ID="0000000000"
       />
-      <h3 style={{textAlign:"center", margin-top: "10px"}}>{`Hi, I'm Luccin Maisrika 👋 `}</h3>
-      <p style={{textAlign:"center", margin-top: "10px"}}>Welcome 🤗 to my portfolio</p>
+      <Typography
+        variant="h3"
+        textAlign="center"
+        sx={{ mt: 4 }}
+        gutterBottom
+      >{`Hi, I'm Luccin Maisrika 👋 `}</Typography>
+      <Typography textAlign="center" color="text.secondary">
+        Full Stack JavaScript/TypeScript Developer with 4+ years of experience
+        in React.js/Next.js, Node.js/NestJs
+      </Typography>
+      <Link href="https://www.linkedin.com/in/luccin-masirika">
+        My linkedin
+      </Link>
+      <Link href="https://github.com/luccin243">My Github</Link>
     </Wrapper>
-  )
-}
+  );
+};
 
 export default Home
