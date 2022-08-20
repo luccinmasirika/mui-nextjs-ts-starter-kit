@@ -31,26 +31,24 @@ const Home: NextPage = () => {
         Full Stack JavaScript/TypeScript Developer with 4+ years of experience
         in React.js/Next.js, Node.js/NestJs
       </Typography>
-      <ButtonGroup
-        size="small"
-        aria-label="small button group"
-        sx={{ justifyContent: "center" }}
-      >
-        <Button
-          onClick={() =>
-            router.push("https://www.linkedin.com/in/luccin-masirika")
-          }
-          key="linkedin"
-        >
-          My LinkedIn
-        </Button>
-        <Button
-          key="github"
-          onClick={() => router.push("https://github.com/luccin243")}
-        >
-          My GitHub
-        </Button>
-      </ButtonGroup>
+      <Stack sx={{ justifyContent: "center", width: 1 }}>
+        <ButtonGroup size="small" aria-label="small button group">
+          <Button
+            onClick={() =>
+              router.push("https://www.linkedin.com/in/luccin-masirika")
+            }
+            key="linkedin"
+          >
+            My LinkedIn
+          </Button>
+          <Button
+            key="github"
+            onClick={() => router.push("https://github.com/luccin243")}
+          >
+            My GitHub
+          </Button>
+        </ButtonGroup>
+      </Stack>
     </Wrapper>
   );
 };
