@@ -16,8 +16,8 @@ const Home: NextPage = () => {
         phone="00000000"
         GA_MEASUREMENT_ID="0000000000"
       />
-      <h3>{`Hi, I'm Luccin Maisrika 👋 `}</h3>
-      <p>Welcome 🤗 to my portfolio</p>
+      <h3 style={{textAlign:"center", margin-top: "10px"}}>{`Hi, I'm Luccin Maisrika 👋 `}</h3>
+      <p style={{textAlign:"center", margin-top: "10px"}}>Welcome 🤗 to my portfolio</p>
     </Wrapper>
   )
 }
