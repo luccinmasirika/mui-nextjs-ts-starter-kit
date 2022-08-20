@@ -35,22 +35,20 @@ const Home: NextPage = () => {
         size="small"
         aria-label="small button group"
         sx={{ justifyContent: "center" }}
+        variant="contained"
+        color="accent"
       >
         <Button
           onClick={() =>
             router.push("https://www.linkedin.com/in/luccin-masirika")
           }
           key="linkedin"
-          variant="contained"
-          color="accent"
         >
           My LinkedIn
         </Button>
         <Button
           key="github"
           onClick={() => router.push("https://github.com/luccin243")}
-          variant="contained"
-          color="accent"
         >
           My GitHub
         </Button>
