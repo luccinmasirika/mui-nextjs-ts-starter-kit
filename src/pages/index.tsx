@@ -14,7 +14,7 @@ const Home: NextPage = () => {
     <Wrapper>
       <SEO
         title="Luccin Masirika"
-        description="Oups!"
+        description="Luccin Masirika, développeur web et blockchain avec plus de 5 ans d'expérience. Spécialisé en Java, Python, JavaScript et technologies blockchain, il est basé au Congo et peut vous accompagner dans la création et la maintenance d'applications web de qualité."
         name="Luccin Masirika"
         logo="/vercel.svg"
         favicon="/favicon.ico"
