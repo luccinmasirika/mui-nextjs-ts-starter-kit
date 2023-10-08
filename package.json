@@ -22,7 +22,7 @@
     "eslint-config-prettier": "^8.5.0",
     "husky": "^7.0.4",
     "js-cookie": "^3.0.1",
-    "next": "12.1.0",
+    "next": "13.5.4",
     "next-dark-mode": "^3.0.0",
     "next-seo": "^5.1.0",
     "next-themes": "^0.1.1",
